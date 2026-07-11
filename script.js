@@ -8,6 +8,13 @@ tabBtns.forEach((btn) => {
 
         btn.classList.add("active");
         document.getElementById(btn.dataset.tab).classList.add("active");
+        if (btn.dataset.tab === "task1") {
+            chooseName();
+        } else if (btn.dataset.tab === "task2") {
+            drawRectangle(x, y, width, height, color);
+        } else if (btn.dataset.tab === "task3") {
+            para3.textContent = chooseName2(names);
+        }
     });
 });
 
