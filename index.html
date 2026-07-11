@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Exercise 2 - Full (Task 1 / 2 / 3)</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1>Exercise 2: Functions</h1>
+
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="task1">Task 1</button>
+            <button class="tab-btn" data-tab="task2">Task 2</button>
+            <button class="tab-btn" data-tab="task3">Task 3</button>
+        </div>
+
+        <!-- ===== TASK 1 ===== -->
+        <section id="task1" class="tab-panel active">
+            <h2>Task 1 - chooseName()</h2>
+            <p class="hint">In một tên ngẫu nhiên từ mảng names ra đoạn văn bản bên dưới (chạy 1 lần khi tải trang).</p>
+            <p id="para1">Names will appear here.</p>
+        </section>
+
+        <!-- ===== TASK 2 ===== -->
+        <section id="task2" class="tab-panel">
+            <h2>Task 2 - drawRectangle()</h2>
+            <p class="hint">Vẽ hình chữ nhật lên canvas dựa trên x, y, width, height, color.</p>
+            <canvas id="canvas" width="480" height="320"></canvas>
+        </section>
+
+        <!-- ===== TASK 3 ===== -->
+        <section id="task3" class="tab-panel">
+            <h2>Task 3 - Refactor: random() + chooseName(arr)</h2>
+            <p class="hint">chooseName() giờ nhận mảng làm tham số và dùng hàm random(min, max) dùng chung.</p>
+            <p id="para3">Names will appear here.</p>
+        </section>
+
+        <script src="script.js"></script>
+    </body>
+</html>
